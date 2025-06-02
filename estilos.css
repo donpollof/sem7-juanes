@@ -1,0 +1,265 @@
+body {
+    background-color: #218508;
+    color: #bd0808;
+    font-family: Arial, sans-serif;
+  }
+  
+  p {
+    color: #058616;
+  }
+  
+  .descripcion {
+    font-size: 18px;
+  }
+  
+  .subtitulo {
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  #titulo-principal {
+    font-family: 'Courier New', monospace;
+    color: #006073;
+  }
+  /* Cambiar el fondo y el color de texto de toda la página */
+body {
+  background-color: #1a3196; /* Fondo claro */
+  color: #162c8d; /* Texto blanco */
+  font-family: Arial, sans-serif; /* Tipo de letra general */
+}
+
+/* Cambiar el color de fondo y el texto de los encabezados */
+h1, h2 {
+  background-color: #4CAF50; /* Fondo verde */
+  color: rgb(212, 6, 6); /* Texto blanco */
+}
+
+/* Tamaño de texto grande para la clase "large-text" */
+.large-text {
+  font-size: 24px; /* Tamaño de texto grande */
+}
+
+/* Tamaño de texto medio para la clase "medium-text" */
+.medium-text {
+  font-size: 18px; /* Tamaño de texto mediano */
+}
+
+/* Cambiar el tipo de letra del título principal usando el ID */
+#main-title {
+  font-family: 'Verdana', sans-serif; /* Tipo de letra específico */
+  font-size: 36px; /* Tamaño de letra grande */
+}
+/* Cambiar el fondo y el color de texto de la página */
+body {
+  background-color: #180adb; /* Color de fondo claro */
+  color: #ad2c2c; /* Color de texto oscuro */
+}
+
+/* Cambiar el color de fondo y texto de los encabezados */
+h1, h2 {
+  background-color: #4CAF50; /* Fondo verde */
+  color: rgb(35, 134, 26); /* Texto blanco */
+}
+
+/* Cambiar el color de texto de los párrafos */
+p {
+  color: #0c771d; /* Texto gris oscuro */
+}
+/* Cambiar el fondo y el color de texto de toda la página */
+body {
+  background-color: #116e05; /* Fondo claro */
+  color: #333333; /* Texto oscuro */
+  font-family: Arial, sans-serif; /* Tipo de letra general */
+}
+
+/* Cambiar el color de fondo y el texto de los encabezados */
+h1, h2 {
+  background-color: #15c91b6b; /* Fondo verde */
+  color: rgb(21, 69, 224); /* Texto blanco */
+}
+
+/* Tamaño de texto grande para la clase "large-text" */
+.large-text {
+  font-size: 24px; /* Tamaño de texto grande */
+}
+
+/* Tamaño de texto medio para la clase "medium-text" */
+.medium-text {
+  font-size: 18px; /* Tamaño de texto mediano */
+}
+
+/* Cambiar el tipo de letra del título principal usando el ID */
+#main-title {
+  font-family: 'Verdana', sans-serif; /* Tipo de letra específico */
+  font-size: 36px; /* Tamaño de letra grande */
+}
+body {
+  background-image: url("matrix.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: 'Courier New', monospace;
+  color: #00FF00;
+}
+
+h1, h2, p, li {
+  text-shadow: 0 0 5px #4930d6;
+}
+/* Cambiar alineación del texto de toda la página */
+body {
+  text-align: justify;
+  line-height: 1.6;
+  word-spacing: 2px;
+  font-family: Arial, sans-serif;
+}
+
+/* Subrayar títulos */
+h2 {
+  text-decoration: underline;
+  color: rgba(4, 4, 117, 0.842);
+}
+
+/* Agregar sombreado a la tabla */
+table {
+  background-color: #f0f0f0;
+  border: 2px solid #333;
+  box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
+}
+
+/* Centrar el contenido de las celdas */
+td, th {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #888;
+}
+table {
+  background-color: rgba(0, 0, 0, 0.6); /* Fondo negro semitransparente */
+  color: #00ff00; /* Verde como el fondo */
+  border: 2px solid #00ff00;
+  box-shadow: 3px 3px 10px rgba(0,0,0,0.5);
+}
+/* Combinar selector de id y clase para cambiar apariencia */
+#introduccion .destacado {
+  color: #2c3e50;
+  font-weight: bold;
+  font-size: 18px;
+  background-color: #ecf0f1;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Cambiar estilo de párrafos con clase "texto" */
+.texto {
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #34495e;
+}
+
+/* Estilo para la lista usando selectores descendientes */
+.lista-temas li {
+  list-style-type: square;
+  margin: 5px 0;
+  color: #7f8c8d;
+  transition: color 0.3s ease;
+}
+
+/* Pseudo-clase hover para los items de la lista */
+.lista-temas li:hover {
+  color: #2980b9;
+  cursor: pointer;
+  font-weight: bold;
+}
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+/* Modelo de caja con padding, border y margin */
+header, nav, section, aside, footer {
+  border: 2px solid #333;
+  padding: 20px;
+  margin-bottom: 15px;
+  background-color: #f4f4f4;
+}
+
+/* Tamaños para aplicar modelo de caja */
+header {
+  width: 100%;
+  height: 80px;
+  box-sizing: border-box; /* importante para incluir padding y border en el ancho */
+}
+
+/* Posición fija para nav */
+nav {
+  width: 100%;
+  height: 50px;
+  background-color: #ddd;
+  position: fixed;
+  top: 80px; /* Debajo del header */
+  left: 0;
+  padding: 10px;
+}
+
+/* Section con margen para que no quede oculto tras el nav fijo */
+section {
+  margin-top: 140px;
+  background-color: #e2e2e2;
+}
+
+/* Aside flotante a la derecha */
+aside {
+  width: 200px;
+  float: right;
+  background-color: #ccc;
+}
+
+/* Imagen con margen */
+img {
+  display: block;
+  margin: 20px 0;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Footer fijo abajo */
+footer {
+  clear: both;
+  width: 100%;
+  height: 60px;
+  background-color: #bbb;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  line-height: 60px;
+}
+* {
+  box-sizing: border-box;
+}
+/* Al contenedor padre */
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+nav {
+  display: flex;
+  justify-content: space-around; /* o space-between */
+  align-items: center;
+}
+nav {
+  width: 100%; /* o un ancho específico */
+  padding: 10px;
+  background-color: #333;
+  color: white;
+}
+a:focus {
+  outline: none;
+}
+a:focus {
+  outline: none;
+  box-shadow: 0 0 5px 2px rgb(0, 123, 255);
+  border-radius: 3px;
+}
